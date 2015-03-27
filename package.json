@@ -8,7 +8,7 @@
     "type":"git",
     "url":"https://github.com/ozomer/node-red-contrib-chunkifier.git"
   },
-  "scripts: {
+  "scripts": {
     "predeploy": "echo \"This package is deprecated, renamed to node-red-contrib-batcher\"",
     "postdeploy": "exit -1"
   },
