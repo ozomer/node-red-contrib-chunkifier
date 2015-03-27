@@ -1,6 +1,6 @@
 {
   "name"         : "node-red-contrib-chunkifier",
-  "version"      : "0.0.7",
+  "version"      : "0.0.8",
   "description"  : "Collects sequences of payloads and send them in a single message.",
   "homepage"     : "https://github.com/ozomer/node-red-contrib-chunkifier",
   "license"      : "Apache-v2.0",
@@ -8,16 +8,15 @@
     "type":"git",
     "url":"https://github.com/ozomer/node-red-contrib-chunkifier.git"
   },
+  "scripts: {
+    "predeploy": "echo \"This package is deprecated, renamed to node-red-contrib-batcher\"",
+    "postdeploy": "exit -1"
+  },
   "dependencies": {},
   "keywords": [
     "state",
     "node-red"
   ],
-  "node-red": {
-    "nodes": {
-      "chunkifier": "chunkifier.js"
-    }
-  },
   "bugs": {
     "url": "https://github.com/ozomer/node-red-contrib-chunkifier/issues"
   },
